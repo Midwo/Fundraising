@@ -121,7 +121,7 @@ textarea {
 
 
 .hover-donation:hover {
-    background-color: rgba(255, 216, 0, 0.75);
+    background-color: rgba(255, 216, 0, 0.74);
     height: 80px;
     width: 80px;
     transition: 1.0s;
