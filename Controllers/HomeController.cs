@@ -26,5 +26,34 @@ namespace Fundraising.Controllers
 
             return View();
         }
+
+
+        public ActionResult Beginning()
+        {
+            ViewBag.Message = "Beginning page";
+
+            return View();
+        }
+
+
+        public ActionResult Gallery()
+        {
+            ViewBag.Message = "Gallery page";
+
+            return View();
+        }
+        public ActionResult Plans()
+        {
+            ViewBag.Message = "Plans page";
+
+            return View();
+        }
+
+        public ActionResult Team()
+        {
+            ViewBag.Message = "Team page";
+
+            return View();
+        }
     }
 }
