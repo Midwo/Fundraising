@@ -47,6 +47,7 @@ textarea {
     background-color: rgba(255, 255, 255, 0.52);
     padding-top: 20px;
     padding-bottom:20px;
+    margin-top: 50px;
 }
     .jumbotron_top h1 {
         font-weight: 500;
@@ -60,7 +61,8 @@ textarea {
 
 .h1-other-font-big {
     font-family: AmaticSC-Bold;
-    font-size: 60px;
+    font-size: 45px;
+    letter-spacing: 0.06em;
     /*font-weight: bold;*/
 }
 
@@ -92,7 +94,7 @@ textarea {
 
 .progress {
     height: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .skill {
@@ -470,3 +472,140 @@ p:hover {
     }
 }
 
+/*template*/
+
+#info-demo {
+    position: fixed;
+    right: 0px;
+    top: 30%;
+    background-color: rgba(0, 102, 235, 0.62);
+    writing-mode: vertical-rl;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 15px 3px 15px 3px;
+    color: white;
+    font-size: 20px;
+    margin: -2.5em 0 0 0;
+    font-weight: bold;
+    border-radius: 1em 0em 0em 1em;
+    cursor: default;
+}
+
+    #info-demo:hover {
+        background-color: rgb(13, 104, 221);
+        -webkit-box-shadow: -11px 0px 64px 5px rgba(0,0,0,0.25);
+        -moz-box-shadow: -11px 0px 64px 5px rgba(0,0,0,0.25);
+        box-shadow: -11px 0px 64px 5px rgba(0,0,0,0.25);
+    }
+
+#info-site {
+    position: fixed;
+    right: 0px;
+    top: 70%;
+    background-color: rgba(108, 167, 8, 0.62);
+    writing-mode: vertical-rl;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 15px 3px 15px 3px;
+    color: white;
+    font-size: 20px;
+    margin: -2.5em 0 0 0;
+    font-weight: bold;
+    border-radius: 1em 0em 0em 1em;
+   
+}
+
+    #info-site:hover {
+        background-color: rgb(103, 164, 0);
+        -webkit-box-shadow: -11px 0px 64px 5px rgba(0,0,0,0.25);
+        -moz-box-shadow: -11px 0px 64px 5px rgba(0,0,0,0.25);
+        box-shadow: -11px 0px 64px 5px rgba(0,0,0,0.25);
+    }
+
+#div-bolid {
+    position: fixed;
+    top: 30%;
+    z-index: 5555;
+    padding-top: 250px;
+}
+
+@media only screen and (max-height: 650px) {
+    #info-site {
+        display: none;
+    }
+}
+
+
+.toppageinfo {
+    background-color: rgba(0, 0, 0, 0.38);
+    color: #FFF;
+    position: relative;
+}
+
+.toppageinfotext {
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+
+.toppageinfoblock h4
+{
+    padding:10px;
+    margin:0px;
+}
+
+
+@media (min-width: 1560px) {
+    .toppageinfoblock {
+        background-color: rgba(0, 146, 255, 0.60);
+        writing-mode: vertical-rl;
+        color: white;
+        cursor: default;
+        text-align: center;
+        display: inline-block;
+        float: right;
+        height: 100%;
+        position: absolute;
+        border-radius: 0em 1em 1em 0em;
+        margin-right: 0px;
+        display: inline;
+        letter-spacing: 0.14em;
+    }
+}
+
+
+@media (max-width: 1559px) {
+    .toppageinfoblock {
+        background-color: rgba(65, 255, 0, 0.60);
+        writing-mode: vertical-rl;
+        color: white;
+        cursor: default;
+        text-align: center;
+        display: inline-block;
+        float: right;
+        height: 100%;
+        position: absolute;
+        border-radius: 0em 1em 1em 0em;
+        margin-right: 0px;
+        display: none;
+        letter-spacing: 0.14em;
+    }
+}
+.progress-bar-striped {
+    background-size: 1rem 1rem !important;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.progress {
+    background-color: #00000070 !important;
+}
