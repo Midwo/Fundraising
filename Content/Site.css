@@ -609,3 +609,10 @@ p:hover {
 .progress {
     background-color: #00000070 !important;
 }
+
+.loginpage {
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
